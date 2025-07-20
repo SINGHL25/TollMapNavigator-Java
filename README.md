@@ -66,3 +66,24 @@ Submit: Append to JSON or push to Firebase
 ✅ JsonUtils.java
 Read/write to JSON in assets/sites.json
 
+
+✅ 🚦 Workflow
+MainActivity → Launch screen with 2 buttons:
+
+View Toll Sites
+
+Upload New Site
+
+UploadActivity → Form with:
+
+Site Name
+
+Latitude/Longitude
+
+Description
+
+On submit → JSON file updated
+
+SiteListActivity → Shows all sites in a list.
+
+SiteDetailActivity → Shows map and routing button.
