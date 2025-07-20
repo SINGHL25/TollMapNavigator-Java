@@ -25,6 +25,13 @@ See `/app/src/main/java/com/example/tollsiteapp/` for:
 3. Set up Firebase (optional)
 4. Build & Run on emulator/device
 
+🧩 Tech Stack:
+Java
+
+Google Maps SDK
+
+Firebase (or SQLite for local DB)
+
 ## Demo Data
 See `assets/sites.json`
 
@@ -87,3 +94,20 @@ On submit → JSON file updated
 SiteListActivity → Shows all sites in a list.
 
 SiteDetailActivity → Shows map and routing button.
+
+
+📌 Development Steps:
+Setup Android Studio → Start project → Add Maps Activity
+
+Add Google Maps API key
+
+Load site_data.json (or Firebase DB)
+
+Show markers on map
+
+On click → show details or route
+
+Add Floating Button to add/edit/save new sites
+
+Optional: Add camera/image/file uploader for site
+
