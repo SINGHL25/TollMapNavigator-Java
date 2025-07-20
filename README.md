@@ -30,3 +30,39 @@ See `assets/sites.json`
 
 ## License
 MIT
+
+
+📱 1. Core Screens
+✅ MainActivity.java
+Splash or intro screen → Redirects to Site List.
+
+✅ SiteListActivity.java
+Loads site list from JSON or Firebase.
+
+Displays in RecyclerView with name + lat/lng.
+
+Button: "Details" → SiteDetailActivity.
+
+✅ SiteDetailActivity.java
+MapView (Google Maps)
+
+Marker of site
+
+Details: name, coordinates, type, route info, etc.
+
+✅ UploadActivity.java
+Upload form with fields:
+
+Site Name
+
+Coordinates (lat/lng)
+
+Type: OnRamp, OffRamp, Gantry, Tech Shelter
+
+Route Info
+
+Submit: Append to JSON or push to Firebase
+
+✅ JsonUtils.java
+Read/write to JSON in assets/sites.json
+
