@@ -1,1 +1,20 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tollnavigator">
+
+    <application
+        android:allowBackup="true"
+        android:label="Toll Navigator"
+        android:icon="@mipmap/ic_launcher"
+        android:theme="@style/Theme.TollNavigator">
+        <activity android:name=".UploadActivity" />
+        <activity android:name=".SiteDetailActivity" />
+        <activity android:name=".SiteListActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>
 
