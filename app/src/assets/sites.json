@@ -1,1 +1,17 @@
+[
+  {
+    "name": "TP01 Gateway Northbound",
+    "latitude": -27.4512,
+    "longitude": 153.0340,
+    "type": "Gantry",
+    "route": "Gateway Motorway"
+  },
+  {
+    "name": "Loganlea Off-Ramp (EB)",
+    "latitude": -27.6795,
+    "longitude": 153.1493,
+    "type": "OffRamp",
+    "route": "Logan Motorway"
+  }
+]
 
